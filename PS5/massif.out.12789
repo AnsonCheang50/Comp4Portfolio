@@ -1,0 +1,773 @@
+desc: (none)
+cmd: ./EDistance
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=4052666847
+mem_heap_B=87054588
+mem_heap_extra_B=5396
+mem_stacks_B=0
+heap_tree=detailed
+n2: 87054588 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 86835200 0x10E49F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+  n1: 86835200 0x10DFD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+   n1: 86835200 0x10DA15: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+    n1: 86835200 0x10D2A4: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+     n1: 86835200 0x10CBF1: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+      n1: 86835200 0x10C38B: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+       n1: 86835200 0x10B164: EDistance::optDistance() (in /home/iiforce-badname/Comp4/PS5/EDistance)
+        n0: 86835200 0x10A895: main (in /home/iiforce-badname/Comp4/PS5/EDistance)
+ n0: 219388 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=2
+#-----------
+time=7852416161
+mem_heap_B=168605948
+mem_heap_extra_B=10372
+mem_stacks_B=0
+heap_tree=detailed
+n2: 168605948 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 168361984 0x10E49F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+  n1: 168361984 0x10DFD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+   n1: 168361984 0x10DA15: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+    n1: 168361984 0x10D2A4: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+     n1: 168361984 0x10CBF1: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+      n1: 168361984 0x10C38B: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+       n1: 168361984 0x10B164: EDistance::optDistance() (in /home/iiforce-badname/Comp4/PS5/EDistance)
+        n0: 168361984 0x10A895: main (in /home/iiforce-badname/Comp4/PS5/EDistance)
+ n0: 243964 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=3
+#-----------
+time=10869882769
+mem_heap_B=233355516
+mem_heap_extra_B=14324
+mem_stacks_B=0
+heap_tree=detailed
+n2: 233355516 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 233111552 0x10E49F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+  n1: 233111552 0x10DFD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+   n1: 233111552 0x10DA15: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+    n1: 233111552 0x10D2A4: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+     n1: 233111552 0x10CBF1: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+      n1: 233111552 0x10C38B: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+       n1: 233111552 0x10B164: EDistance::optDistance() (in /home/iiforce-badname/Comp4/PS5/EDistance)
+        n0: 233111552 0x10A895: main (in /home/iiforce-badname/Comp4/PS5/EDistance)
+ n0: 243964 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=4
+#-----------
+time=14999903019
+mem_heap_B=322009340
+mem_heap_extra_B=19732
+mem_stacks_B=0
+heap_tree=detailed
+n2: 322009340 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 321716224 0x10E49F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+  n1: 321716224 0x10DFD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+   n1: 321716224 0x10DA15: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+    n1: 321716224 0x10D2A4: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+     n1: 321716224 0x10CBF1: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+      n1: 321716224 0x10C38B: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+       n1: 321716224 0x10B164: EDistance::optDistance() (in /home/iiforce-badname/Comp4/PS5/EDistance)
+        n0: 321716224 0x10A895: main (in /home/iiforce-badname/Comp4/PS5/EDistance)
+ n0: 293116 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=5
+#-----------
+time=17797471443
+mem_heap_B=382040316
+mem_heap_extra_B=23396
+mem_stacks_B=0
+heap_tree=detailed
+n2: 382040316 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 381747200 0x10E49F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+  n1: 381747200 0x10DFD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+   n1: 381747200 0x10DA15: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+    n1: 381747200 0x10D2A4: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+     n1: 381747200 0x10CBF1: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+      n1: 381747200 0x10C38B: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+       n1: 381747200 0x10B164: EDistance::optDistance() (in /home/iiforce-badname/Comp4/PS5/EDistance)
+        n0: 381747200 0x10A895: main (in /home/iiforce-badname/Comp4/PS5/EDistance)
+ n0: 293116 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=6
+#-----------
+time=20894343039
+mem_heap_B=448493820
+mem_heap_extra_B=27452
+mem_stacks_B=0
+heap_tree=detailed
+n2: 448493820 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 448200704 0x10E49F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+  n1: 448200704 0x10DFD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+   n1: 448200704 0x10DA15: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+    n1: 448200704 0x10D2A4: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+     n1: 448200704 0x10CBF1: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+      n1: 448200704 0x10C38B: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+       n1: 448200704 0x10B164: EDistance::optDistance() (in /home/iiforce-badname/Comp4/PS5/EDistance)
+        n0: 448200704 0x10A895: main (in /home/iiforce-badname/Comp4/PS5/EDistance)
+ n0: 293116 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=7
+#-----------
+time=24528738699
+mem_heap_B=526481660
+mem_heap_extra_B=32212
+mem_stacks_B=0
+heap_tree=detailed
+n2: 526481660 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 526188544 0x10E49F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+  n1: 526188544 0x10DFD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+   n1: 526188544 0x10DA15: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+    n1: 526188544 0x10D2A4: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+     n1: 526188544 0x10CBF1: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+      n1: 526188544 0x10C38B: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+       n1: 526188544 0x10B164: EDistance::optDistance() (in /home/iiforce-badname/Comp4/PS5/EDistance)
+        n0: 526188544 0x10A895: main (in /home/iiforce-badname/Comp4/PS5/EDistance)
+ n0: 293116 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=8
+#-----------
+time=28781778493
+mem_heap_B=617806076
+mem_heap_extra_B=37780
+mem_stacks_B=0
+heap_tree=detailed
+n2: 617806076 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 617414656 0x10E49F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+  n1: 617414656 0x10DFD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+   n1: 617414656 0x10DA15: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+    n1: 617414656 0x10D2A4: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+     n1: 617414656 0x10CBF1: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+      n1: 617414656 0x10C38B: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+       n1: 617414656 0x10B164: EDistance::optDistance() (in /home/iiforce-badname/Comp4/PS5/EDistance)
+        n0: 617414656 0x10A895: main (in /home/iiforce-badname/Comp4/PS5/EDistance)
+ n0: 391420 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=9
+#-----------
+time=33766092541
+mem_heap_B=724760828
+mem_heap_extra_B=44308
+mem_stacks_B=0
+heap_tree=detailed
+n2: 724760828 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 724369408 0x10E49F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+  n1: 724369408 0x10DFD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+   n1: 724369408 0x10DA15: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+    n1: 724369408 0x10D2A4: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+     n1: 724369408 0x10CBF1: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+      n1: 724369408 0x10C38B: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+       n1: 724369408 0x10B164: EDistance::optDistance() (in /home/iiforce-badname/Comp4/PS5/EDistance)
+        n0: 724369408 0x10A895: main (in /home/iiforce-badname/Comp4/PS5/EDistance)
+ n0: 391420 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=10
+#-----------
+time=36581985649
+mem_heap_B=785185020
+mem_heap_extra_B=47996
+mem_stacks_B=0
+heap_tree=detailed
+n2: 785185020 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 784793600 0x10E49F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+  n1: 784793600 0x10DFD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+   n1: 784793600 0x10DA15: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+    n1: 784793600 0x10D2A4: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+     n1: 784793600 0x10CBF1: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+      n1: 784793600 0x10C38B: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+       n1: 784793600 0x10B164: EDistance::optDistance() (in /home/iiforce-badname/Comp4/PS5/EDistance)
+        n0: 784793600 0x10A895: main (in /home/iiforce-badname/Comp4/PS5/EDistance)
+ n0: 391420 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=11
+#-----------
+time=41651814889
+mem_heap_B=893974780
+mem_heap_extra_B=54636
+mem_stacks_B=0
+heap_tree=detailed
+n2: 893974780 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 893583360 0x10E49F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+  n1: 893583360 0x10DFD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+   n1: 893583360 0x10DA15: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+    n1: 893583360 0x10D2A4: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+     n1: 893583360 0x10CBF1: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+      n1: 893583360 0x10C38B: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+       n1: 893583360 0x10B164: EDistance::optDistance() (in /home/iiforce-badname/Comp4/PS5/EDistance)
+        n0: 893583360 0x10A895: main (in /home/iiforce-badname/Comp4/PS5/EDistance)
+ n0: 391420 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=12
+#-----------
+time=45119493366
+mem_heap_B=968325372
+mem_heap_extra_B=59180
+mem_stacks_B=0
+heap_tree=detailed
+n2: 968325372 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 967933952 0x10E49F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+  n1: 967933952 0x10DFD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+   n1: 967933952 0x10DA15: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+    n1: 967933952 0x10D2A4: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+     n1: 967933952 0x10CBF1: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+      n1: 967933952 0x10C38B: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+       n1: 967933952 0x10B164: EDistance::optDistance() (in /home/iiforce-badname/Comp4/PS5/EDistance)
+        n0: 967933952 0x10A895: main (in /home/iiforce-badname/Comp4/PS5/EDistance)
+ n0: 391420 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=13
+#-----------
+time=48837623696
+mem_heap_B=1048050684
+mem_heap_extra_B=64052
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=52860242709
+mem_heap_B=1134491904
+mem_heap_extra_B=69320
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=56198930991
+mem_heap_B=1206253820
+mem_heap_extra_B=73684
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1206253820 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1205665792 0x10E49F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+  n1: 1205665792 0x10DFD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+   n1: 1205665792 0x10DA15: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+    n1: 1205665792 0x10D2A4: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+     n1: 1205665792 0x10CBF1: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+      n1: 1205665792 0x10C38B: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+       n1: 1205665792 0x10B164: EDistance::optDistance() (in /home/iiforce-badname/Comp4/PS5/EDistance)
+        n0: 1205665792 0x10A895: main (in /home/iiforce-badname/Comp4/PS5/EDistance)
+ n0: 588028 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=16
+#-----------
+time=60865617183
+mem_heap_B=1306392828
+mem_heap_extra_B=79796
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1306392828 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1305804800 0x10E49F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+  n1: 1305804800 0x10DFD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+   n1: 1305804800 0x10DA15: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+    n1: 1305804800 0x10D2A4: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+     n1: 1305804800 0x10CBF1: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+      n1: 1305804800 0x10C38B: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+       n1: 1305804800 0x10B164: EDistance::optDistance() (in /home/iiforce-badname/Comp4/PS5/EDistance)
+        n0: 1305804800 0x10A895: main (in /home/iiforce-badname/Comp4/PS5/EDistance)
+ n0: 588028 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=17
+#-----------
+time=65923229967
+mem_heap_B=1414920444
+mem_heap_extra_B=86420
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1414920444 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1414332416 0x10E49F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+  n1: 1414332416 0x10DFD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+   n1: 1414332416 0x10DA15: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+    n1: 1414332416 0x10D2A4: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+     n1: 1414332416 0x10CBF1: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+      n1: 1414332416 0x10C38B: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+       n1: 1414332416 0x10B164: EDistance::optDistance() (in /home/iiforce-badname/Comp4/PS5/EDistance)
+        n0: 1414332416 0x10A895: main (in /home/iiforce-badname/Comp4/PS5/EDistance)
+ n0: 588028 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=18
+#-----------
+time=68609055260
+mem_heap_B=1472493820
+mem_heap_extra_B=89940
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1472493820 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1471905792 0x10E49F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+  n1: 1471905792 0x10DFD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+   n1: 1471905792 0x10DA15: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+    n1: 1471905792 0x10D2A4: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+     n1: 1471905792 0x10CBF1: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+      n1: 1471905792 0x10C38B: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+       n1: 1471905792 0x10B164: EDistance::optDistance() (in /home/iiforce-badname/Comp4/PS5/EDistance)
+        n0: 1471905792 0x10A895: main (in /home/iiforce-badname/Comp4/PS5/EDistance)
+ n0: 588028 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=19
+#-----------
+time=71402310483
+mem_heap_B=1532492028
+mem_heap_extra_B=93596
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1532492028 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1531904000 0x10E49F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+  n1: 1531904000 0x10DFD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+   n1: 1531904000 0x10DA15: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+    n1: 1531904000 0x10D2A4: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+     n1: 1531904000 0x10CBF1: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+      n1: 1531904000 0x10C38B: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+       n1: 1531904000 0x10B164: EDistance::optDistance() (in /home/iiforce-badname/Comp4/PS5/EDistance)
+        n0: 1531904000 0x10A895: main (in /home/iiforce-badname/Comp4/PS5/EDistance)
+ n0: 588028 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=20
+#-----------
+time=74309827011
+mem_heap_B=1594882300
+mem_heap_extra_B=97404
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1594882300 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1594294272 0x10E49F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+  n1: 1594294272 0x10DFD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+   n1: 1594294272 0x10DA15: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+    n1: 1594294272 0x10D2A4: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+     n1: 1594294272 0x10CBF1: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+      n1: 1594294272 0x10C38B: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+       n1: 1594294272 0x10B164: EDistance::optDistance() (in /home/iiforce-badname/Comp4/PS5/EDistance)
+        n0: 1594294272 0x10A895: main (in /home/iiforce-badname/Comp4/PS5/EDistance)
+ n0: 588028 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=21
+#-----------
+time=77333399871
+mem_heap_B=1659762940
+mem_heap_extra_B=101364
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1659762940 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1659174912 0x10E49F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+  n1: 1659174912 0x10DFD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+   n1: 1659174912 0x10DA15: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+    n1: 1659174912 0x10D2A4: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+     n1: 1659174912 0x10CBF1: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+      n1: 1659174912 0x10C38B: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+       n1: 1659174912 0x10B164: EDistance::optDistance() (in /home/iiforce-badname/Comp4/PS5/EDistance)
+        n0: 1659174912 0x10A895: main (in /home/iiforce-badname/Comp4/PS5/EDistance)
+ n0: 588028 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=22
+#-----------
+time=80475541497
+mem_heap_B=1727068416
+mem_heap_extra_B=105488
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=83714669814
+mem_heap_B=1796634876
+mem_heap_extra_B=109724
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=87161538723
+mem_heap_B=1870657788
+mem_heap_extra_B=114236
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1870657788 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1870069760 0x10E49F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+  n1: 1870069760 0x10DFD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+   n1: 1870069760 0x10DA15: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+    n1: 1870069760 0x10D2A4: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+     n1: 1870069760 0x10CBF1: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+      n1: 1870069760 0x10C38B: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+       n1: 1870069760 0x10B164: EDistance::optDistance() (in /home/iiforce-badname/Comp4/PS5/EDistance)
+        n0: 1870069760 0x10A895: main (in /home/iiforce-badname/Comp4/PS5/EDistance)
+ n0: 588028 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=25
+#-----------
+time=90708624164
+mem_heap_B=1946712316
+mem_heap_extra_B=118884
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1946712316 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1946124288 0x10E49F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+  n1: 1946124288 0x10DFD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+   n1: 1946124288 0x10DA15: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+    n1: 1946124288 0x10D2A4: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+     n1: 1946124288 0x10CBF1: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+      n1: 1946124288 0x10C38B: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+       n1: 1946124288 0x10B164: EDistance::optDistance() (in /home/iiforce-badname/Comp4/PS5/EDistance)
+        n0: 1946124288 0x10A895: main (in /home/iiforce-badname/Comp4/PS5/EDistance)
+ n0: 588028 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=26
+#-----------
+time=94397993876
+mem_heap_B=2025879804
+mem_heap_extra_B=123716
+mem_stacks_B=0
+heap_tree=detailed
+n2: 2025879804 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2025291776 0x10E49F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+  n1: 2025291776 0x10DFD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+   n1: 2025291776 0x10DA15: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+    n1: 2025291776 0x10D2A4: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+     n1: 2025291776 0x10CBF1: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+      n1: 2025291776 0x10C38B: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+       n1: 2025291776 0x10B164: EDistance::optDistance() (in /home/iiforce-badname/Comp4/PS5/EDistance)
+        n0: 2025291776 0x10A895: main (in /home/iiforce-badname/Comp4/PS5/EDistance)
+ n0: 588028 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=27
+#-----------
+time=98233961060
+mem_heap_B=2108193020
+mem_heap_extra_B=128740
+mem_stacks_B=0
+heap_tree=detailed
+n2: 2108193020 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2107604992 0x10E49F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+  n1: 2107604992 0x10DFD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+   n1: 2107604992 0x10DA15: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+    n1: 2107604992 0x10D2A4: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+     n1: 2107604992 0x10CBF1: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+      n1: 2107604992 0x10C38B: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+       n1: 2107604992 0x10B164: EDistance::optDistance() (in /home/iiforce-badname/Comp4/PS5/EDistance)
+        n0: 2107604992 0x10A895: main (in /home/iiforce-badname/Comp4/PS5/EDistance)
+ n0: 588028 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=28
+#-----------
+time=102212953777
+mem_heap_B=2193881340
+mem_heap_extra_B=133940
+mem_stacks_B=0
+heap_tree=detailed
+n2: 2193881340 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2192900096 0x10E49F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+  n1: 2192900096 0x10DFD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+   n1: 2192900096 0x10DA15: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+    n1: 2192900096 0x10D2A4: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+     n1: 2192900096 0x10CBF1: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+      n1: 2192900096 0x10C38B: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+       n1: 2192900096 0x10B164: EDistance::optDistance() (in /home/iiforce-badname/Comp4/PS5/EDistance)
+        n0: 2192900096 0x10A895: main (in /home/iiforce-badname/Comp4/PS5/EDistance)
+ n0: 981244 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=29
+#-----------
+time=106372657045
+mem_heap_B=2283141372
+mem_heap_extra_B=139388
+mem_stacks_B=0
+heap_tree=detailed
+n2: 2283141372 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2282160128 0x10E49F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+  n1: 2282160128 0x10DFD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+   n1: 2282160128 0x10DA15: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+    n1: 2282160128 0x10D2A4: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+     n1: 2282160128 0x10CBF1: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+      n1: 2282160128 0x10C38B: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+       n1: 2282160128 0x10B164: EDistance::optDistance() (in /home/iiforce-badname/Comp4/PS5/EDistance)
+        n0: 2282160128 0x10A895: main (in /home/iiforce-badname/Comp4/PS5/EDistance)
+ n0: 981244 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=30
+#-----------
+time=110697282469
+mem_heap_B=2375940348
+mem_heap_extra_B=145052
+mem_stacks_B=0
+heap_tree=detailed
+n2: 2375940348 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2374959104 0x10E49F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+  n1: 2374959104 0x10DFD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+   n1: 2374959104 0x10DA15: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+    n1: 2374959104 0x10D2A4: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+     n1: 2374959104 0x10CBF1: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+      n1: 2374959104 0x10C38B: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+       n1: 2374959104 0x10B164: EDistance::optDistance() (in /home/iiforce-badname/Comp4/PS5/EDistance)
+        n0: 2374959104 0x10A895: main (in /home/iiforce-badname/Comp4/PS5/EDistance)
+ n0: 981244 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=31
+#-----------
+time=115203359706
+mem_heap_B=2472573180
+mem_heap_extra_B=150956
+mem_stacks_B=0
+heap_tree=detailed
+n2: 2472573180 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2471591936 0x10E49F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+  n1: 2471591936 0x10DFD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+   n1: 2471591936 0x10DA15: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+    n1: 2471591936 0x10D2A4: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+     n1: 2471591936 0x10CBF1: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+      n1: 2471591936 0x10C38B: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+       n1: 2471591936 0x10B164: EDistance::optDistance() (in /home/iiforce-badname/Comp4/PS5/EDistance)
+        n0: 2471591936 0x10A895: main (in /home/iiforce-badname/Comp4/PS5/EDistance)
+ n0: 981244 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=32
+#-----------
+time=119890165609
+mem_heap_B=2573203708
+mem_heap_extra_B=157092
+mem_stacks_B=0
+heap_tree=detailed
+n2: 2573203708 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2572222464 0x10E49F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+  n1: 2572222464 0x10DFD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+   n1: 2572222464 0x10DA15: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+    n1: 2572222464 0x10D2A4: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+     n1: 2572222464 0x10CBF1: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+      n1: 2572222464 0x10C38B: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+       n1: 2572222464 0x10B164: EDistance::optDistance() (in /home/iiforce-badname/Comp4/PS5/EDistance)
+        n0: 2572222464 0x10A895: main (in /home/iiforce-badname/Comp4/PS5/EDistance)
+ n0: 981244 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=33
+#-----------
+time=124776748009
+mem_heap_B=2678061308
+mem_heap_extra_B=163492
+mem_stacks_B=0
+heap_tree=detailed
+n2: 2678061308 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2677080064 0x10E49F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+  n1: 2677080064 0x10DFD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+   n1: 2677080064 0x10DA15: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+    n1: 2677080064 0x10D2A4: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+     n1: 2677080064 0x10CBF1: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+      n1: 2677080064 0x10C38B: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+       n1: 2677080064 0x10B164: EDistance::optDistance() (in /home/iiforce-badname/Comp4/PS5/EDistance)
+        n0: 2677080064 0x10A895: main (in /home/iiforce-badname/Comp4/PS5/EDistance)
+ n0: 981244 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=34
+#-----------
+time=128569957597
+mem_heap_B=2759457020
+mem_heap_extra_B=168460
+mem_stacks_B=0
+heap_tree=detailed
+n2: 2759457020 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2758475776 0x10E49F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+  n1: 2758475776 0x10DFD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+   n1: 2758475776 0x10DA15: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+    n1: 2758475776 0x10D2A4: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+     n1: 2758475776 0x10CBF1: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+      n1: 2758475776 0x10C38B: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+       n1: 2758475776 0x10B164: EDistance::optDistance() (in /home/iiforce-badname/Comp4/PS5/EDistance)
+        n0: 2758475776 0x10A895: main (in /home/iiforce-badname/Comp4/PS5/EDistance)
+ n0: 981244 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=35
+#-----------
+time=133798600765
+mem_heap_B=2871654652
+mem_heap_extra_B=175308
+mem_stacks_B=0
+heap_tree=detailed
+n2: 2871654652 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2870673408 0x10E49F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+  n1: 2870673408 0x10DFD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+   n1: 2870673408 0x10DA15: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+    n1: 2870673408 0x10D2A4: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+     n1: 2870673408 0x10CBF1: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+      n1: 2870673408 0x10C38B: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+       n1: 2870673408 0x10B164: EDistance::optDistance() (in /home/iiforce-badname/Comp4/PS5/EDistance)
+        n0: 2870673408 0x10A895: main (in /home/iiforce-badname/Comp4/PS5/EDistance)
+ n0: 981244 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=36
+#-----------
+time=136492329313
+mem_heap_B=2929457404
+mem_heap_extra_B=178836
+mem_stacks_B=0
+heap_tree=detailed
+n2: 2929457404 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2928476160 0x10E49F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+  n1: 2928476160 0x10DFD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+   n1: 2928476160 0x10DA15: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+    n1: 2928476160 0x10D2A4: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+     n1: 2928476160 0x10CBF1: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+      n1: 2928476160 0x10C38B: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+       n1: 2928476160 0x10B164: EDistance::optDistance() (in /home/iiforce-badname/Comp4/PS5/EDistance)
+        n0: 2928476160 0x10A895: main (in /home/iiforce-badname/Comp4/PS5/EDistance)
+ n0: 981244 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=37
+#-----------
+time=139241031913
+mem_heap_B=2988439804
+mem_heap_extra_B=182436
+mem_stacks_B=0
+heap_tree=detailed
+n2: 2988439804 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2987458560 0x10E49F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+  n1: 2987458560 0x10DFD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+   n1: 2987458560 0x10DA15: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+    n1: 2987458560 0x10D2A4: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+     n1: 2987458560 0x10CBF1: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+      n1: 2987458560 0x10C38B: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+       n1: 2987458560 0x10B164: EDistance::optDistance() (in /home/iiforce-badname/Comp4/PS5/EDistance)
+        n0: 2987458560 0x10A895: main (in /home/iiforce-badname/Comp4/PS5/EDistance)
+ n0: 981244 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=38
+#-----------
+time=142044708565
+mem_heap_B=3048601852
+mem_heap_extra_B=186108
+mem_stacks_B=0
+heap_tree=detailed
+n2: 3048601852 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 3047620608 0x10E49F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+  n1: 3047620608 0x10DFD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+   n1: 3047620608 0x10DA15: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+    n1: 3047620608 0x10D2A4: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+     n1: 3047620608 0x10CBF1: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+      n1: 3047620608 0x10C38B: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+       n1: 3047620608 0x10B164: EDistance::optDistance() (in /home/iiforce-badname/Comp4/PS5/EDistance)
+        n0: 3047620608 0x10A895: main (in /home/iiforce-badname/Comp4/PS5/EDistance)
+ n0: 981244 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=39
+#-----------
+time=144903359269
+mem_heap_B=3109943548
+mem_heap_extra_B=189852
+mem_stacks_B=0
+heap_tree=detailed
+n2: 3109943548 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 3108962304 0x10E49F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+  n1: 3108962304 0x10DFD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+   n1: 3108962304 0x10DA15: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+    n1: 3108962304 0x10D2A4: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+     n1: 3108962304 0x10CBF1: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+      n1: 3108962304 0x10C38B: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+       n1: 3108962304 0x10B164: EDistance::optDistance() (in /home/iiforce-badname/Comp4/PS5/EDistance)
+        n0: 3108962304 0x10A895: main (in /home/iiforce-badname/Comp4/PS5/EDistance)
+ n0: 981244 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=40
+#-----------
+time=147823092253
+mem_heap_B=3172595964
+mem_heap_extra_B=193676
+mem_stacks_B=0
+heap_tree=detailed
+n2: 3172595964 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 3171614720 0x10E49F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+  n1: 3171614720 0x10DFD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+   n1: 3171614720 0x10DA15: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+    n1: 3171614720 0x10D2A4: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+     n1: 3171614720 0x10CBF1: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+      n1: 3171614720 0x10C38B: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+       n1: 3171614720 0x10B164: EDistance::optDistance() (in /home/iiforce-badname/Comp4/PS5/EDistance)
+        n0: 3171614720 0x10A895: main (in /home/iiforce-badname/Comp4/PS5/EDistance)
+ n0: 981244 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=41
+#-----------
+time=150739229443
+mem_heap_B=3235051776
+mem_heap_extra_B=197504
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=153738487272
+mem_heap_B=3299414268
+mem_heap_extra_B=201428
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=156804817728
+mem_heap_B=3365212412
+mem_heap_extra_B=205444
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=159932230464
+mem_heap_B=3432321276
+mem_heap_extra_B=209540
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=163126715827
+mem_heap_B=3500865792
+mem_heap_extra_B=213728
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=166376411004
+mem_heap_B=3570602236
+mem_heap_extra_B=217980
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=171651289681
+mem_heap_B=3683907836
+mem_heap_extra_B=224884
+mem_stacks_B=0
+heap_tree=peak
+n2: 3683907836 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 3682926592 0x10E49F: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+  n1: 3682926592 0x10DFD3: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+   n1: 3682926592 0x10DA15: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+    n1: 3682926592 0x10D2A4: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+     n1: 3682926592 0x10CBF1: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+      n1: 3682926592 0x10C38B: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/iiforce-badname/Comp4/PS5/EDistance)
+       n1: 3682926592 0x10B164: EDistance::optDistance() (in /home/iiforce-badname/Comp4/PS5/EDistance)
+        n0: 3682926592 0x10A895: main (in /home/iiforce-badname/Comp4/PS5/EDistance)
+ n0: 981244 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=48
+#-----------
+time=839035243372
+mem_heap_B=3708353788
+mem_heap_extra_B=226380
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=841899243393
+mem_heap_B=3708873210
+mem_heap_extra_B=226414
+mem_stacks_B=0
+heap_tree=empty
